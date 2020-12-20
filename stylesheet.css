@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    font-family: "sans serif";
+    background-color: #E8DBCE;
+  }
+
+  .container-1 {
+    padding-bottom: 50px;
+    background-size: cover;
+  }
+
+  .container-2 {
+    padding-bottom: 230px;
+    margin: 0 auto;
+    background-size: cover;
+  }
+
+  .container-3 {
+    padding-bottom: 230px;
+    margin: 0 auto;
+    background-size: cover;
+
+  }
+
+  .container {
+    margin: 0 auto;
+    background-size: cover;
+  }
+
+  header {
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    background-color: #CFA48D;
+
+  }
+
+  .search {
+    padding: 0 10px;
+    text-align: right;
+    float: right;
+    color: white;
+
+  }
+
+  .btn {
+
+    color: white;
+
+   }
+
+  .btn-wrapper {
+    width: 100%;
+    height: 45px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 387px;
+
+  }
+
+  .btn-wrapper p {
+    padding-top: 3px;
+    float: right;
+  }
+
+  .btn-wrapper a {
+  float: left;
+  padding-top: 3px;
+  text-align: left;
+
+  }
+
+  .top-wrapper {
+    padding-top: 50px;
+    background-image: url(https://i.ibb.co/jfkbZp9/travel.jpg);
+    background-size: cover;
+    height: 450px;
+    /* color: #cf48d; (Note: code warna tidak ada) */
+    text-align: center;
+
+  }
+
+  .top-wrapper h1{
+    margin: 0 auto;
+
+  }
+
+  .logo {
+    margin-bottom: 0 auto;
+  }
+  .lesson-wrapper {
+    margin: 0 auto
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 300px;
+    background-color: #E8DBCE;
+  }
+
+
+  .lesson {
+    float: left;
+    width: 25%;
+
+  }
+
+  .lesson-icon {
+    position: relative;
+  }
+
+  .lesson-icon p {
+    position: absolute;
+    width: 100%;
+    color: #6e6e6e;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 5px;
+
+  }
+
+
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #be8664;
+    padding-top: 20px;
+    border-bottom:: 1px solid #black;
+    text-align: center;
+
+  }
+
+  .content-wrapper {
+    height: 600px;
+    padding-top: 50px;
+    background-color: #white;
+    background-size: cover;
+    text-align: center;
+    background-color: #CFA48D;
+  }
+
+  .content {
+    float: left;
+    width: 25%;
+  }
+
+  .content-icon {
+    position: relative;
+    padding-top: 60px;
+  }
+
+  .content-icon p {
+    color: #424D5;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    font-family: "sans-serif";
+    font-size: 15px;
+    color: #be8664;
+  }
+
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+
+    font-size: 15px;
+  }
+
+  .content-icon img {
+    weight: 200px;
+    height: 200px;
+
+  }
+
+
+  h1 {
+    margin: 0 auto;
+    /* Note: untuk menghapus margin di atas / bawah elemen h1 */
+  }
+
+.footer-section {
+  background: #E8DBCE;
+  position: cover;
+  height: 580px;
+
+}
+.footer-cta {
+  width:100%;
+  border-bottom: 1px solid #CFA48D;
+}
+.single-cta i {
+  color: #CFA48D;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #424D55;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #BE8664;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 300px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #424D55;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #424D55;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #424D55;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 150px;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #BE8664;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #CFA48D;
+}
+.footer-widget ul li a {
+  color: #CFA48D;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #CFA48D;
+  border: 1px solid #CFA48D;
+  color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #424D55;
+  padding: 13px 20px;
+  border: 1px solid #424D55;
+  top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #CFA48D;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #424D55;
+}
+.copyright-text p a{
+  color: #424D55;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #424D55;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #424D55;
+}
+.clear {
+  clear:left;
+}
