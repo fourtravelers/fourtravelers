@@ -6,7 +6,7 @@
   }
 
   .btn-wrapper {
-    margin-left: -90px;
+    padding-left: 10px;
   }
 
   .txt-contents {
@@ -42,7 +42,7 @@
 
   .footer-section {
     margin: 0 auto;
-    height: 610px;
+    height: 800px;
   }
 
   .footer-content {
@@ -56,18 +56,25 @@
 
   .btn-wrapper {
     width: 100%;
-    padding-left: 20px;
+    font-size: 10px;
+    padding-left: 10px;
 
   }
 
   .search {
-    margin-right: -90px;
-    font-size: 15px;
+    padding-top: 4px;
+  }
 
+
+  .btn-wrapper a {
+    font-size: 10px;
+    padding-left: 5px;
+    padding-top: 6px;
+    margin-right: -10px;
   }
 
   .txt-contents {
-    width: 50%;
+    width: 70%;
   }
 
   .lesson {
@@ -76,11 +83,11 @@
   }
 
   .lesson-wrapper {
-    height: 1750px;
+    height: 2000px;
 
   }
   .content-wrapper {
-    height: 1800px;
+    height: 1950px;
 
   }
 
@@ -89,7 +96,12 @@
   }
 
   .footer-section {
-    height: 1200px;
+    height: 1400px;
+  }
+
+  .footer-logo img {
+    margin-top: -20px;
+    margin-left: -50px;
   }
 
   .footer-cta {
@@ -99,28 +111,35 @@
 
   .single-cta {
     padding-bottom: 20px;
+    padding-left: 20px;
   }
 
-  .footer-text p {
-    width: 80%;
-    padding-left: 100px;
+  .footer-text {
+    margin-top: -20px;
+    margin-left: -35px;
+
   }
 
   .footer-social-icon {
+    margin-right: 30px;
     padding-top: 20px;
   }
 
   .footer-widget-heading h3 {
-    padding-top: 50px;
-    border-position: center;
+    padding-top: 40px;
+    margin-right: 30px;
   }
 
-  .footer-widget-heading h3::before {
-    margin-left: 20px;
-  }
+.footer-widget-heading h3::before {
+  left: 80px;
+}
 
   .footer-widget ul li {
-    margin-left: -15px;
+    margin-right: 5px;
+    padding-left: 30px;
   }
 
+  .subscribe-form {
+    margin-right: 35px;
+  }
 }
