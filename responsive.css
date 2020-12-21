@@ -54,29 +54,17 @@
 
 @media (max-width:670px) {
 
-  .btn {
-    width: 100%;
-
-  }
-
   .btn-wrapper {
     width: 100%;
     padding-left: 20px;
 
   }
 
-  .btn-wrapper p {
-    width: 20%;
-    margin-right: -150px;
-
-  }
-
-  .btn-wrapper a {
-    margin-right: -400px;
-    padding-left: 50px;
+  .search {
+    margin-right: -90px;
     font-size: 15px;
-  }
 
+  }
 
   .txt-contents {
     width: 50%;
