@@ -36,10 +36,13 @@ body {
   }
 
   .search {
-    padding: 0 10px;
-    text-align: right;
     float: right;
     color: white;
+    display: block;
+    margin-right: 10px;
+    margin-top: 4px;
+
+  }
 
   }
 
