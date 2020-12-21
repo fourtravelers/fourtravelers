@@ -5,9 +5,8 @@
     width: 50%;
   }
 
-  .btn-wrapper a {
-    padding-left: 280px;
-    margin-right: -250px;
+  .btn-wrapper {
+    margin-left: -90px;
   }
 
   .txt-contents {
@@ -46,61 +45,94 @@
     height: 610px;
   }
 
+  .footer-content {
+    width: 90%;
+    padding-left: 70px;
+  }
+
 }
 
 @media (max-width:670px) {
 
-  .body {
+  .btn {
     width: 100%;
-    }
 
-  .lesson-wrapper {
-    height: 1750px;
   }
 
-.txt-contents {
-  width: 50%;
-}
+  .btn-wrapper {
+    width: 100%;
+    padding-left: 20px;
+
+  }
+
+  .btn-wrapper p {
+    width: 20%;
+    margin-right: -150px;
+
+  }
+
+  .btn-wrapper a {
+    margin-right: -400px;
+    padding-left: 50px;
+    font-size: 15px;
+  }
+
+
+  .txt-contents {
+    width: 50%;
+  }
+
   .lesson {
     width: 100%;
 
   }
 
+  .lesson-wrapper {
+    height: 1750px;
+
+  }
   .content-wrapper {
-    height: 1130px;
+    height: 1800px;
 
   }
 
-.footer-section {
-  height: 1200px;
-}
+  .content {
+    width: 100%;
+  }
+
+  .footer-section {
+    height: 1200px;
+  }
 
   .footer-cta {
     width: 80%;
 
   }
 
-.single-cta {
-  padding-bottom: 20px;
-}
+  .single-cta {
+    padding-bottom: 20px;
+  }
 
-.footer-text p {
-  width: 80%;
-  padding-left: 100px;
-}
+  .footer-text p {
+    width: 80%;
+    padding-left: 100px;
+  }
 
-.footer-social-icon {
-  padding-top: 20px;
-}
+  .footer-social-icon {
+    padding-top: 20px;
+  }
 
-.footer-widget-heading h3 {
-  padding-top: 50px;
-  border-position: center;
-}
+  .footer-widget-heading h3 {
+    padding-top: 50px;
+    border-position: center;
+  }
 
-.footer-widget-heading h3::before {
-  margin-left: 80px;
-}
+  .footer-widget-heading h3::before {
+    margin-left: 20px;
+  }
 
-.footer-widget ul li {
-  margin-left: -15px;
+  .footer-widget ul li {
+    margin-left: -15px;
+  }
+
+}
